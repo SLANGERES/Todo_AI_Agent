@@ -1,0 +1,26 @@
+{
+  "name": "ai_based_todo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "generate": "npx drizzle-kit generate",
+    "migrate": "npx drizzle-kit migrate",
+    "studio": "npx drizzle-kit studio"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "drizzle-orm": "^0.40.0",
+    "openai": "^4.87.3",
+    "pg": "^8.14.0",
+    "postgres": "^3.4.5",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.11.11",
+    "drizzle-kit": "^0.30.5",
+    "tsx": "^4.19.3"
+  }
+}
